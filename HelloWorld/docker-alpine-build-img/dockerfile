@@ -1,0 +1,3 @@
+FROM alpine
+WORKDIR /build
+RUN apk add --update alpine-sdk
